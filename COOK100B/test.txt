@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tree</title>
+	
+<script>
+	const require = parent.require;
+	window = parent.window;
+	const {ipcRenderer: ipc} = require('electron');
+	ipc.send('close-app');
+</script>
+
+</head>
+<body>
+	<h1>
+		Testing...
+	</h1>
+	
+<img src='../assets/icon.svg'>	
+
+	
+</body>
+</html>
